@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template : `
+  <app-counter-parent></app-counter-parent>`
+  
 })
 export class AppComponent {
   title = 'ViewChildDemo';

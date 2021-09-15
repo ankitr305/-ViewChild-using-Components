@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CounterChildComponent } from './counter-child/counter-child.component';
+import { CounterParentComponent } from './counter-parent/counter-parent.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CounterChildComponent,
+    CounterParentComponent
   ],
   imports: [
     BrowserModule,
